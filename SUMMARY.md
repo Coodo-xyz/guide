@@ -2,6 +2,7 @@
 
 * [🤖 Start](README.md)
 * [📊 Polls](polls.md)
+* [🕐 Recurrent Polls](polls-1.md)
 * [📜 FAQ](faq/README.md)
   * [How to change bot language?](faq/how-to-change-bot-language.md)
   * [How to change commands permissions?](faq/how-to-change-commands-permissions.md)
