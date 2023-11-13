@@ -36,8 +36,8 @@ You can change recurrent polls setting on the [dashboard](https://dashboard.cood
 {% hint style="success" %}
 Valid formats:
 
-* 1d6h3m2s
-* 50h3d1w
+* 1d6h3m
+* 50h3d
 * 5h
 * 72h2d
 {% endhint %}
