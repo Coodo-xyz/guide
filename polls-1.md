@@ -41,3 +41,16 @@ Valid formats:
 * 5h
 * 72h2d
 {% endhint %}
+
+## Days option
+
+You can choose the days on which your poll will be active. To do this you need to edit an existing recurring poll from the [dashboard](https://dashboard.coodo.xyz).
+
+Go to Recurrent polls section on the dashboard.\
+And edit your recurrent poll.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+After changes press "Save changes" button.

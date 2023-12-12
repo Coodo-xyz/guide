@@ -4,7 +4,7 @@
 
 {% tabs %}
 {% tab title="On desktop" %}
-Click on the green button at the top right of your app![](../.gitbook/assets/image.png)
+Click on the green button at the top right of your app![](<../.gitbook/assets/image (2).png>)
 {% endtab %}
 
 {% tab title="On mobile" %}
