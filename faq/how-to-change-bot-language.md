@@ -12,7 +12,7 @@ To change the language of the bot, follow these simple steps:
     Once you have successfully enabled Server Community on your guild, navigate to your server settings. In the Server Community settings section, you will find an option to select the language for the bot.
 
 {% hint style="info" %}
-Available languages: French, English, Spanish, Russia
+Available languages: French, English, Spanish, Russian, Roman
 {% endhint %}
 
 That's it! You've successfully changed the bot's language to suit your preferences. Enjoy a seamless experience in the language of your choice.
