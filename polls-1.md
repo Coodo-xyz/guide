@@ -39,14 +39,28 @@ To display all options place your cursor at the end of the line
 | `sendnow` | Also post the first poll right away. |
 
 {% hint style="info" %}
-The old `time` option (for example `1d6h`) no longer exists. The interval is now set with `schedule` and `at`.
+The old `time` option (for example `1d6h`) no longer exists. The interval is now set with `schedule` and `at`, and the close delay with `closeafter` (see below).
 {% endhint %}
 
 ## Closing the polls
 
 A recurrent poll stays open until it is closed with its "End the poll" button.
 
-With 💎 Premium, the `autoclose` option of `/recurrent-poll edit` closes each poll when the next one is posted, and the new poll shows how the previous one ended.
+With 💎 Premium, on `/recurrent-poll edit`:
+
+* `autoclose`: each poll closes when the next one is posted, and the new poll shows how the previous one ended.
+* `closeafter`: each poll closes after a delay, same format as the timer of a poll. For example `5h`, `1d6h` or `30m` (1 minute to 31 days). Use `closeafter: off` to remove it. If the next poll comes first, the previous one closes then.
+
+{% hint style="success" %}
+Valid formats for `closeafter`:
+
+* 30m
+* 5h
+* 1d6h
+* 2d
+{% endhint %}
+
+You can also choose this on the dashboard, in "Close each poll": never, when the next one is posted, or after a delay.
 
 ## Change a recurrent poll
 
@@ -55,9 +69,10 @@ Use `/recurrent-poll edit` and pick your poll in `id`. You can change `schedule`
 💎 Premium options, on `/recurrent-poll edit` only:
 
 * `autoclose`: close the previous poll when the next one is posted, with a recap.
+* `closeafter`: close each poll after a delay (`off` to remove).
 * `role`: a role mentioned each time the poll is posted (`removerole` to stop).
 
-You can also edit your recurrent polls on the [dashboard](https://dashboard.coodo.xyz/user/recurrentpolls): title, description, image, time of day, days of the week, day of the month, and pause or resume.
+You can also edit your recurrent polls on the [dashboard](https://dashboard.coodo.xyz/user/recurrentpolls): title, description, image, time of day, days of the week, day of the month, how each poll closes, and pause or resume.
 
 ## Other commands
 
